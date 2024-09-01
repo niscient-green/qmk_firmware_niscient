@@ -20,6 +20,9 @@
 // but can't yet be given a value
 #define SPLIT_HAND_PIN B5
 
+// Remove repeat key problem with KVM
+#define USB_POLLING_INTERVAL_MS 10
+
 // Not yet available in `info.json`
 #ifdef OLED_ENABLE
 #    define OLED_DISPLAY_128X64
